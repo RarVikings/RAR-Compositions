@@ -1,0 +1,570 @@
+version=54;
+center[]={2696.1809,82.076439,966.14203};
+class items
+{
+	items=1;
+	class Item0
+	{
+		dataType="Layer";
+		name="Logi Crate - 3CB RARBoxes";
+		class Entities
+		{
+			items=1;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-0.033691406,1.3493271,0.21923828};
+					angles[]={0.16109388,0,0.024993116};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+				};
+				id=3;
+				type="UK3CB_BAF_Vehicles_Logistics_Point";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="uk3cb_baf_vehicles_logistics_loadout_l16ammohe";
+						expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16ammohe',_value];";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="uk3cb_baf_vehicles_logistics_loadout_m6ammohe";
+						expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_m6ammohe',_value];";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=0;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="uk3cb_baf_vehicles_logistics_loadout_cw_section_light";
+						expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_cw_section_light',_value];";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=0;
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="uk3cb_baf_vehicles_logistics_additionals_list";
+						expression="_this setVariable ['uk3cb_baf_vehicles_logistics_additionals_list',_value];";
+						class Value
+						{
+							class data
+							{
+								singleType="ARRAY";
+								class value
+								{
+									items=3;
+									class Item0
+									{
+										class data
+										{
+											singleType="STRING";
+											value="RAR_Medical";
+										};
+									};
+									class Item1
+									{
+										class data
+										{
+											singleType="STRING";
+											value="RAR_Launchers";
+										};
+									};
+									class Item2
+									{
+										class data
+										{
+											singleType="STRING";
+											value="RAR_Section_Supplies";
+										};
+									};
+								};
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="uk3cb_baf_vehicles_logistics_loadout_section_light";
+						expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_section_light',_value];";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=0;
+							};
+						};
+					};
+					class Attribute5
+					{
+						property="uk3cb_baf_vehicles_logistics_loadout_l7a2ammo";
+						expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l7a2ammo',_value];";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=0;
+							};
+						};
+					};
+					class Attribute6
+					{
+						property="uk3cb_baf_vehicles_logistics_loadout_cw_section";
+						expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_cw_section',_value];";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=0;
+							};
+						};
+					};
+					class Attribute7
+					{
+						property="uk3cb_baf_vehicles_logistics_loadout_javelin";
+						expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_javelin',_value];";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=0;
+							};
+						};
+					};
+					class Attribute8
+					{
+						property="uk3cb_baf_vehicles_logistics_loadout_l111a1ammo";
+						expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l111a1ammo',_value];";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=0;
+							};
+						};
+					};
+					class Attribute9
+					{
+						property="uk3cb_baf_vehicles_logistics_loadout_l134a1";
+						expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l134a1',_value];";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=0;
+							};
+						};
+					};
+					class Attribute10
+					{
+						property="uk3cb_baf_vehicles_logistics_loadout_l134a1ammo";
+						expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l134a1ammo',_value];";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=0;
+							};
+						};
+					};
+					class Attribute11
+					{
+						property="uk3cb_baf_vehicles_logistics_loadout_l16cratemixed";
+						expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16cratemixed',_value];";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=0;
+							};
+						};
+					};
+					class Attribute12
+					{
+						property="uk3cb_baf_vehicles_logistics_loadout_l16ammomixed";
+						expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16ammomixed',_value];";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=0;
+							};
+						};
+					};
+					class Attribute13
+					{
+						property="uk3cb_baf_vehicles_logistics_loadout_l16cratesmoke";
+						expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16cratesmoke',_value];";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=0;
+							};
+						};
+					};
+					class Attribute14
+					{
+						property="uk3cb_baf_vehicles_logistics_loadout_m6ammomixed";
+						expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_m6ammomixed',_value];";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=0;
+							};
+						};
+					};
+					class Attribute15
+					{
+						property="uk3cb_baf_vehicles_logistics_loadout_l16ammosmoke";
+						expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16ammosmoke',_value];";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=0;
+							};
+						};
+					};
+					class Attribute16
+					{
+						property="uk3cb_baf_vehicles_logistics_loadout_m6ammosmoke";
+						expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_m6ammosmoke',_value];";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=0;
+							};
+						};
+					};
+					class Attribute17
+					{
+						property="uk3cb_baf_vehicles_logistics_crates";
+						expression="_this setVariable ['uk3cb_baf_vehicles_logistics_crates',_value];";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=1;
+							};
+						};
+					};
+					class Attribute18
+					{
+						property="uk3cb_baf_vehicles_logistics_loadout_l16ammowpsmoke";
+						expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16ammowpsmoke',_value];";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=0;
+							};
+						};
+					};
+					class Attribute19
+					{
+						property="uk3cb_baf_vehicles_logistics_loadout_m6ammowpsmoke";
+						expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_m6ammowpsmoke',_value];";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=0;
+							};
+						};
+					};
+					class Attribute20
+					{
+						property="uk3cb_baf_vehicles_logistics_loadout_medical";
+						expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_medical',_value];";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=0;
+							};
+						};
+					};
+					class Attribute21
+					{
+						property="uk3cb_baf_vehicles_logistics_loadout_l16";
+						expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16',_value];";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=0;
+							};
+						};
+					};
+					class Attribute22
+					{
+						property="uk3cb_baf_vehicles_logistics_loadout_stinger";
+						expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_stinger',_value];";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=0;
+							};
+						};
+					};
+					class Attribute23
+					{
+						property="uk3cb_baf_vehicles_logistics_loadout_l16cratehe";
+						expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16cratehe',_value];";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=0;
+							};
+						};
+					};
+					class Attribute24
+					{
+						property="uk3cb_baf_vehicles_logistics_loadout_l111a1";
+						expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l111a1',_value];";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=0;
+							};
+						};
+					};
+					class Attribute25
+					{
+						property="uk3cb_baf_vehicles_logistics_loadout_night";
+						expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_night',_value];";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=0;
+							};
+						};
+					};
+					class Attribute26
+					{
+						property="uk3cb_baf_vehicles_logistics_loadout_nlaw";
+						expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_nlaw',_value];";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=0;
+							};
+						};
+					};
+					class Attribute27
+					{
+						property="uk3cb_baf_vehicles_logistics_loadout_milan";
+						expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_milan',_value];";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=0;
+							};
+						};
+					};
+					class Attribute28
+					{
+						property="uk3cb_baf_vehicles_logistics_loadout_l7a2";
+						expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l7a2',_value];";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=0;
+							};
+						};
+					};
+					class Attribute29
+					{
+						property="uk3cb_baf_vehicles_logistics_loadout_l16cratewpsmoke";
+						expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16cratewpsmoke',_value];";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=0;
+							};
+						};
+					};
+					class Attribute30
+					{
+						property="uk3cb_baf_vehicles_logistics_loadout_explosives";
+						expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_explosives',_value];";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=0;
+							};
+						};
+					};
+					class Attribute31
+					{
+						property="uk3cb_baf_vehicles_logistics_loadout_l16crateillum";
+						expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16crateillum',_value];";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=0;
+							};
+						};
+					};
+					class Attribute32
+					{
+						property="uk3cb_baf_vehicles_logistics_loadout_l16ammoillum";
+						expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_l16ammoillum',_value];";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=0;
+							};
+						};
+					};
+					class Attribute33
+					{
+						property="uk3cb_baf_vehicles_logistics_loadout_section";
+						expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_section',_value];";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=0;
+							};
+						};
+					};
+					class Attribute34
+					{
+						property="uk3cb_baf_vehicles_logistics_loadout_ilaw";
+						expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_ilaw',_value];";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=0;
+							};
+						};
+					};
+					class Attribute35
+					{
+						property="uk3cb_baf_vehicles_logistics_infantry";
+						expression="_this setVariable ['uk3cb_baf_vehicles_logistics_infantry',_value];";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=1;
+							};
+						};
+					};
+					class Attribute36
+					{
+						property="uk3cb_baf_vehicles_logistics_loadout_m6ammoillum";
+						expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_m6ammoillum',_value];";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=0;
+							};
+						};
+					};
+					class Attribute37
+					{
+						property="uk3cb_baf_vehicles_logistics_loadout_m6";
+						expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_m6',_value];";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=0;
+							};
+						};
+					};
+					class Attribute38
+					{
+						property="uk3cb_baf_vehicles_logistics_loadout_warrior";
+						expression="_this setVariable ['uk3cb_baf_vehicles_logistics_loadout_warrior',_value];";
+						class Value
+						{
+							class data
+							{
+								singleType="BOOL";
+								value=0;
+							};
+						};
+					};
+					nAttributes=39;
+				};
+			};
+		};
+		id=4;
+	};
+};
