@@ -1,0 +1,4641 @@
+version=54;
+center[]={5782.3364,839.22998,1530.4862};
+class items
+{
+	items=1;
+	class Item0
+	{
+		dataType="Layer";
+		name="QuaterMaster";
+		class Entities
+		{
+			items=1;
+			class Item0
+			{
+				dataType="Layer";
+				name="QuaterMaster";
+				class Entities
+				{
+					items=1;
+					class Item0
+					{
+						dataType="Layer";
+						name="QuaterMaster_1";
+						class Entities
+						{
+							items=5;
+							class Item0
+							{
+								dataType="Layer";
+								name="QM Area_1";
+								class Entities
+								{
+									items=5;
+									class Item0
+									{
+										dataType="Object";
+										class PositionInfo
+										{
+											position[]={-0.84863281,0.41156006,-1.4421387};
+											angles[]={-0,0.92904782,0};
+										};
+										side="Empty";
+										flags=4;
+										class Attributes
+										{
+											disableSimulation=1;
+										};
+										id=85;
+										type="Land_CampingTable_F";
+										class CustomAttributes
+										{
+											class Attribute0
+											{
+												property="allowDamage";
+												expression="_this allowdamage _value;";
+												class Value
+												{
+													class data
+													{
+														singleType="BOOL";
+														value=0;
+													};
+												};
+											};
+											nAttributes=1;
+										};
+									};
+									class Item1
+									{
+										dataType="Object";
+										class PositionInfo
+										{
+											position[]={-0.56347656,1.06604,-1.8061523};
+											angles[]={0,3.5985897,0};
+										};
+										side="Empty";
+										flags=4;
+										class Attributes
+										{
+											disableSimulation=1;
+										};
+										id=86;
+										type="Land_MultiScreenComputer_01_black_F";
+										atlOffset=0.00036621094;
+										class CustomAttributes
+										{
+											class Attribute0
+											{
+												property="allowDamage";
+												expression="_this allowdamage _value;";
+												class Value
+												{
+													class data
+													{
+														singleType="BOOL";
+														value=0;
+													};
+												};
+											};
+											class Attribute1
+											{
+												property="ObjectTextureCustom1";
+												expression="_this setObjectTextureGlobal [1,_value]";
+												class Value
+												{
+													class data
+													{
+														singleType="STRING";
+														value="Images\Step1.paa";
+													};
+												};
+											};
+											class Attribute2
+											{
+												property="ObjectTextureCustom2";
+												expression="_this setObjectTextureGlobal [2,_value]";
+												class Value
+												{
+													class data
+													{
+														singleType="STRING";
+														value="Images\Step2.paa";
+													};
+												};
+											};
+											class Attribute3
+											{
+												property="ObjectTextureCustom3";
+												expression="_this setObjectTextureGlobal [3,_value]";
+												class Value
+												{
+													class data
+													{
+														singleType="STRING";
+														value="Images\PleaseNote.paa";
+													};
+												};
+											};
+											class Attribute4
+											{
+												property="ace_arsenal_attribute";
+												expression="if (!is3DEN) then {[_this, +_value] call ace_arsenal_fnc_attributeInit}";
+												class Value
+												{
+													class data
+													{
+														singleType="ARRAY";
+														class value
+														{
+															items=2;
+															class Item0
+															{
+																class data
+																{
+																	singleType="ARRAY";
+																	class value
+																	{
+																		items=167;
+																		class Item0
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="mpx_daysack";
+																			};
+																		};
+																		class Item1
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="mpx_daysack8";
+																			};
+																		};
+																		class Item2
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="mpx_camel";
+																			};
+																		};
+																		class Item3
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="UK3CB_BAF_B_Bergen_MTP_Engineer_H_A";
+																			};
+																		};
+																		class Item4
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="UK3CB_BAF_B_Bergen_MTP_Engineer_L_A";
+																			};
+																		};
+																		class Item5
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="UK3CB_BAF_B_Bergen_MTP_Rifleman_H_A";
+																			};
+																		};
+																		class Item6
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="UK3CB_BAF_B_Bergen_MTP_Rifleman_H_B";
+																			};
+																		};
+																		class Item7
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="UK3CB_BAF_B_Bergen_MTP_Rifleman_H_C";
+																			};
+																		};
+																		class Item8
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="UK3CB_BAF_B_Bergen_MTP_Rifleman_L_A";
+																			};
+																		};
+																		class Item9
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="UK3CB_BAF_B_Bergen_MTP_Rifleman_L_B";
+																			};
+																		};
+																		class Item10
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="UK3CB_BAF_B_Bergen_MTP_Rifleman_L_C";
+																			};
+																		};
+																		class Item11
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="UK3CB_BAF_B_Bergen_MTP_Rifleman_L_D";
+																			};
+																		};
+																		class Item12
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="UK3CB_BAF_B_Bergen_MTP_Rifleman_XL_A";
+																			};
+																		};
+																		class Item13
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="UK3CB_BAF_G_Tactical_Black";
+																			};
+																		};
+																		class Item14
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="UK3CB_BAF_G_Tactical_Clear";
+																			};
+																		};
+																		class Item15
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="G_Tactical_Clear";
+																			};
+																		};
+																		class Item16
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="UK3CB_BAF_G_Tactical_Grey";
+																			};
+																		};
+																		class Item17
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="UK3CB_BAF_G_Tactical_Orange";
+																			};
+																		};
+																		class Item18
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="UK3CB_BAF_G_Tactical_Yellow";
+																			};
+																		};
+																		class Item19
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="rhsusf_shemagh2_gogg_white";
+																			};
+																		};
+																		class Item20
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="rhsusf_shemagh_gogg_white";
+																			};
+																		};
+																		class Item21
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="rhsusf_shemagh2_gogg_tan";
+																			};
+																		};
+																		class Item22
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="rhsusf_shemagh_gogg_tan";
+																			};
+																		};
+																		class Item23
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="rhsusf_shemagh2_gogg_od";
+																			};
+																		};
+																		class Item24
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="rhsusf_shemagh_gogg_od";
+																			};
+																		};
+																		class Item25
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="rhsusf_shemagh2_gogg_grn";
+																			};
+																		};
+																		class Item26
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="rhsusf_shemagh_gogg_grn";
+																			};
+																		};
+																		class Item27
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="rhsusf_shemagh2_white";
+																			};
+																		};
+																		class Item28
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="rhsusf_shemagh_white";
+																			};
+																		};
+																		class Item29
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="rhsusf_shemagh2_tan";
+																			};
+																		};
+																		class Item30
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="rhsusf_shemagh_tan";
+																			};
+																		};
+																		class Item31
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="rhsusf_shemagh2_od";
+																			};
+																		};
+																		class Item32
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="rhsusf_shemagh_od";
+																			};
+																		};
+																		class Item33
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="rhsusf_shemagh2_grn";
+																			};
+																		};
+																		class Item34
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="rhsusf_shemagh_grn";
+																			};
+																		};
+																		class Item35
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="rhs_scarf";
+																			};
+																		};
+																		class Item36
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="G_Bandanna_tan";
+																			};
+																		};
+																		class Item37
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="G_Bandanna_sport";
+																			};
+																		};
+																		class Item38
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="G_Bandanna_shades";
+																			};
+																		};
+																		class Item39
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="G_Bandanna_oli";
+																			};
+																		};
+																		class Item40
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="G_Bandanna_khk";
+																			};
+																		};
+																		class Item41
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="G_Bandanna_blk";
+																			};
+																		};
+																		class Item42
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="G_Bandanna_beast";
+																			};
+																		};
+																		class Item43
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="G_Bandanna_aviator";
+																			};
+																		};
+																		class Item44
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="rhs_ess_black";
+																			};
+																		};
+																		class Item45
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="rhs_googles_orange";
+																			};
+																		};
+																		class Item46
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="rhs_googles_clear";
+																			};
+																		};
+																		class Item47
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="G_Balaclava_oli";
+																			};
+																		};
+																		class Item48
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="rhs_balaclava1_olive";
+																			};
+																		};
+																		class Item49
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="G_Balaclava_lowprofile";
+																			};
+																		};
+																		class Item50
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="G_Balaclava_combat";
+																			};
+																		};
+																		class Item51
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="G_Balaclava_blk";
+																			};
+																		};
+																		class Item52
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="rhs_balaclava";
+																			};
+																		};
+																		class Item53
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="ItemCompass";
+																			};
+																		};
+																		class Item54
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="ItemMap";
+																			};
+																		};
+																		class Item55
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="TFAR_microdagr";
+																			};
+																		};
+																		class Item56
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="rhs_googles_yellow";
+																			};
+																		};
+																		class Item57
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="G_Combat";
+																			};
+																		};
+																		class Item58
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="None";
+																			};
+																		};
+																		class Item59
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="Rev_Shades_Black";
+																			};
+																		};
+																		class Item60
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="Rev_Shades_clear";
+																			};
+																		};
+																		class Item61
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="Rev_Shades_Yellow";
+																			};
+																		};
+																		class Item62
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="BatlskinCobraVisor";
+																			};
+																		};
+																		class Item63
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="G_EyeProtectors_F";
+																			};
+																		};
+																		class Item64
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="G_Balaclava_TI_blk_F";
+																			};
+																		};
+																		class Item65
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="G_Balaclava_TI_tna_F";
+																			};
+																		};
+																		class Item66
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="G_Tactical_Black";
+																			};
+																		};
+																		class Item67
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="G_Spectacles";
+																			};
+																		};
+																		class Item68
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="G_Squares";
+																			};
+																		};
+																		class Item69
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="G_Aviator";
+																			};
+																		};
+																		class Item70
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="UK3CB_BAF_G_Balaclava_Win";
+																			};
+																		};
+																		class Item71
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="rhs_googles_black";
+																			};
+																		};
+																		class Item72
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="RKSL_optic_LDS";
+																			};
+																		};
+																		class Item73
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="RKSL_optic_LDS_C";
+																			};
+																		};
+																		class Item74
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="UK3CB_BAF_LLM_Flashlight_Black";
+																			};
+																		};
+																		class Item75
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="UK3CB_BAF_LLM_Flashlight_Tan";
+																			};
+																		};
+																		class Item76
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="murshun_cigs_cig0";
+																			};
+																		};
+																		class Item77
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="immersion_cigs_cigar0";
+																			};
+																		};
+																		class Item78
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="immersion_pops_pop0";
+																			};
+																		};
+																		class Item79
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="G_Shades_Black";
+																			};
+																		};
+																		class Item80
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="G_Shades_Blue";
+																			};
+																		};
+																		class Item81
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="G_Shades_Green";
+																			};
+																		};
+																		class Item82
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="G_Shades_Red";
+																			};
+																		};
+																		class Item83
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="TFAR_rf7800str";
+																			};
+																		};
+																		class Item84
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="mpx_daysack9";
+																			};
+																		};
+																		class Item85
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="mpx_daysack10";
+																			};
+																		};
+																		class Item86
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="murshun_cigs_cigpack";
+																			};
+																		};
+																		class Item87
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="immersion_pops_poppack";
+																			};
+																		};
+																		class Item88
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="murshun_cigs_lighter";
+																			};
+																		};
+																		class Item89
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="QAC_TSHIRT_MTP";
+																			};
+																		};
+																		class Item90
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="QAC_TSHIRT_MTP_Bloused";
+																			};
+																		};
+																		class Item91
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="QAC_TSHIRT_MTP_Bloused_Pad";
+																			};
+																		};
+																		class Item92
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="QAC_TSHIRT_MTP_Pads";
+																			};
+																		};
+																		class Item93
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="QAC_UBACS_MTP_2";
+																			};
+																		};
+																		class Item94
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="QAC_UBACS_MTP_2_Bloused";
+																			};
+																		};
+																		class Item95
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="QAC_UBACS_MTP";
+																			};
+																		};
+																		class Item96
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="QAC_UBACS_MTP_Bloused";
+																			};
+																		};
+																		class Item97
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="QAC_UBACS_MTP_2_Pads";
+																			};
+																		};
+																		class Item98
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="QAC_UBACS_MTP_Pads";
+																			};
+																		};
+																		class Item99
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="QAC_UBACS_MTP_2_Bloused_Pads";
+																			};
+																		};
+																		class Item100
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="QAC_UBACS_MTP_Bloused_Pads";
+																			};
+																		};
+																		class Item101
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="QAC_UBACS_MTP_2_Rolled";
+																			};
+																		};
+																		class Item102
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="QAC_UBACS_MTP_Rolled";
+																			};
+																		};
+																		class Item103
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="QAC_UBACS_MTP_2_Bloused_Rolled";
+																			};
+																		};
+																		class Item104
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="QAC_UBACS_MTP_Bloused_Rolled";
+																			};
+																		};
+																		class Item105
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="QAC_UBACS_MTP_2_Bloused_Rolled_Pads";
+																			};
+																		};
+																		class Item106
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="QAC_UBACS_MTP_Bloused_Rolled_Pads";
+																			};
+																		};
+																		class Item107
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="QAC_UBACS_MTP_2_Rolled_Pad";
+																			};
+																		};
+																		class Item108
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="QAC_UBACS_MTP_Rolled_Pad";
+																			};
+																		};
+																		class Item109
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="Rev_One";
+																			};
+																		};
+																		class Item110
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="H_Cap_khaki_specops_UK";
+																			};
+																		};
+																		class Item111
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="Virtus_A_1";
+																			};
+																		};
+																		class Item112
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="Virtus_A_2";
+																			};
+																		};
+																		class Item113
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="Virtus_A_3";
+																			};
+																		};
+																		class Item114
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="Virtus_A_4";
+																			};
+																		};
+																		class Item115
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="Virtus_B_1";
+																			};
+																		};
+																		class Item116
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="Virtus_B_2";
+																			};
+																		};
+																		class Item117
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="Virtus_B_3";
+																			};
+																		};
+																		class Item118
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="Virtus_B_4";
+																			};
+																		};
+																		class Item119
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="Virtus_C_1";
+																			};
+																		};
+																		class Item120
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="Virtus_C_2";
+																			};
+																		};
+																		class Item121
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="Virtus_C_3";
+																			};
+																		};
+																		class Item122
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="Virtus_D_2";
+																			};
+																		};
+																		class Item123
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="Virtus_D_1";
+																			};
+																		};
+																		class Item124
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="Virtus_C_4";
+																			};
+																		};
+																		class Item125
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="Virtus_D_4";
+																			};
+																		};
+																		class Item126
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="Virtus_D_3";
+																			};
+																		};
+																		class Item127
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="PLP_RH_Glass_Beard_01_black";
+																			};
+																		};
+																		class Item128
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="PLP_RH_Glass_Beard_01_brown";
+																			};
+																		};
+																		class Item129
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="PLP_RH_Glass_Beard_01_blonde";
+																			};
+																		};
+																		class Item130
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="PLP_RH_Glass_Beard_01_grey";
+																			};
+																		};
+																		class Item131
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="PLP_RH_Glass_Beard_01_red";
+																			};
+																		};
+																		class Item132
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="PLP_RH_Glass_Beard_02_blonde";
+																			};
+																		};
+																		class Item133
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="PLP_RH_Glass_Beard_02_black";
+																			};
+																		};
+																		class Item134
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="PLP_RH_Glass_Beard_02_brown";
+																			};
+																		};
+																		class Item135
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="PLP_RH_Glass_Beard_02_grey";
+																			};
+																		};
+																		class Item136
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="PLP_RH_Glass_Beard_03_black";
+																			};
+																		};
+																		class Item137
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="PLP_RH_Glass_Beard_02_red";
+																			};
+																		};
+																		class Item138
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="PLP_RH_Glass_Beard_03_blonde";
+																			};
+																		};
+																		class Item139
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="PLP_RH_Glass_Beard_03_brown";
+																			};
+																		};
+																		class Item140
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="PLP_RH_Glass_Beard_03_grey";
+																			};
+																		};
+																		class Item141
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="PLP_RH_Glass_Beard_04_black";
+																			};
+																		};
+																		class Item142
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="PLP_RH_Glass_Beard_03_red";
+																			};
+																		};
+																		class Item143
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="PLP_RH_Glass_Beard_04_red";
+																			};
+																		};
+																		class Item144
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="PLP_RH_Glass_Beard_04_grey";
+																			};
+																		};
+																		class Item145
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="PLP_RH_Glass_Beard_04_brown";
+																			};
+																		};
+																		class Item146
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="PLP_RH_Glass_Beard_04_blonde";
+																			};
+																		};
+																		class Item147
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="G_Bandanna_Skull1";
+																			};
+																		};
+																		class Item148
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="G_Bandanna_CandySkull";
+																			};
+																		};
+																		class Item149
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="G_Balaclava_Skull1";
+																			};
+																		};
+																		class Item150
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="PB_Balaclava_grey";
+																			};
+																		};
+																		class Item151
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="G_Balaclava_BlueStrips";
+																			};
+																		};
+																		class Item152
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="PB_Balaclava_black";
+																			};
+																		};
+																		class Item153
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="QAC_ESS12_MK6_LOW_COVER";
+																			};
+																		};
+																		class Item154
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="QAC_ESS12_MK6_LOW";
+																			};
+																		};
+																		class Item155
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="QAC_ESS12_MK6_HIGH_COVER";
+																			};
+																		};
+																		class Item156
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="QAC_ESS12_MK6_HIGH";
+																			};
+																		};
+																		class Item157
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="QAC_SWDG_MK6_LOW_COVER";
+																			};
+																		};
+																		class Item158
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="QAC_SWDG_MK6_LOW";
+																			};
+																		};
+																		class Item159
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="QAC_SWDG_MK6_HIGH_COVER";
+																			};
+																		};
+																		class Item160
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="QAC_SWDG_MK6_HIGH";
+																			};
+																		};
+																		class Item161
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="rhsusf_acc_grip1";
+																			};
+																		};
+																		class Item162
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="UK3CB_underbarrel_acc_grippod";
+																			};
+																		};
+																		class Item163
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="UK3CB_underbarrel_acc_grippod_d";
+																			};
+																		};
+																		class Item164
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="UK3CB_underbarrel_acc_grippod_g";
+																			};
+																		};
+																		class Item165
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="UK3CB_underbarrel_acc_grippod_t";
+																			};
+																		};
+																		class Item166
+																		{
+																			class data
+																			{
+																				singleType="STRING";
+																				value="UK3CB_underbarrel_acc_grippod_w";
+																			};
+																		};
+																	};
+																};
+															};
+															class Item1
+															{
+																class data
+																{
+																	singleType="SCALAR";
+																	value=0;
+																};
+															};
+														};
+													};
+												};
+											};
+											nAttributes=5;
+										};
+									};
+									class Item2
+									{
+										dataType="Object";
+										class PositionInfo
+										{
+											position[]={-3.6948242,-0.0089111328,-2.0799561};
+											angles[]={-0,0.84985059,0};
+										};
+										side="Empty";
+										flags=4;
+										class Attributes
+										{
+											disableSimulation=1;
+										};
+										id=87;
+										type="Land_BriefingRoomScreen_01_F";
+										class CustomAttributes
+										{
+											class Attribute0
+											{
+												property="ObjectTextureCustom0";
+												expression="_this setObjectTextureGlobal [0,_value]";
+												class Value
+												{
+													class data
+													{
+														singleType="STRING";
+														value="images\QM1.paa";
+													};
+												};
+											};
+											class Attribute1
+											{
+												property="allowDamage";
+												expression="_this allowdamage _value;";
+												class Value
+												{
+													class data
+													{
+														singleType="BOOL";
+														value=0;
+													};
+												};
+											};
+											nAttributes=2;
+										};
+									};
+									class Item3
+									{
+										dataType="Object";
+										class PositionInfo
+										{
+											position[]={6.9975586,3.9768066,-1.2044678};
+											angles[]={0,4.9499631,-0};
+										};
+										side="Empty";
+										flags=5;
+										class Attributes
+										{
+											init="call{this SetFlagTexture ""images\QMFlag.paa"";}";
+										};
+										id=88;
+										type="Flag_Redburger_F";
+									};
+									class Item4
+									{
+										dataType="Group";
+										side="West";
+										class Entities
+										{
+											items=1;
+											class Item0
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-2.4902344,0.0014648438,-1.4160156};
+													angles[]={0,0.94344401,-0};
+												};
+												side="West";
+												flags=7;
+												class Attributes
+												{
+													rank="COLONEL";
+													init="[this,""GUARD"",""ASIS""] call BIS_fnc_ambientAnim; " \n "call{this addAction[""<t color='#008322'>Save Kit</t>"", {player execVM ""Loadouts\SaveKit.sqf"";}, [],10,false,false,"""",""_this distance _target < 10""]; " \n "this addAction[""<t color='#2E86C1'>IC</t>"", {player execVM ""Loadouts\IC.sqf"";}, [],9,false,false,"""",""_this distance _target < 10""];  " \n "this addAction[""<t color='#2E86C1'>2IC</t>"", {player execVM ""Loadouts\2IC.sqf"";}, [],9,false,false,"""",""_this distance _target < 10""];  " \n "this addAction[""<t color='#FF0000'>Pointman</t>"", {player execVM ""Loadouts\Pointman.sqf"";}, [],8,false,false,"""",""_this distance _target < 10""];  " \n "this addAction[""<t color='#FF0000'>Rifleman</t>"", {player execVM ""Loadouts\Rifleman.sqf"";}, [],8,false,false,"""",""_this distance _target < 10""];  " \n "this addAction[""<t color='#FF0000'>Medic</t>"", {player execVM ""Loadouts\Medic.sqf"";}, [],8,false,false,"""",""_this distance _target < 10""];  " \n "this addAction[""<t color='#FF0000'>GPMG</t>"", {player execVM ""Loadouts\GPMG.sqf"";}, [],8,false,false,"""",""_this distance _target < 10""];  " \n "this addAction[""<t color='#FF0000'>Grenadier</t>"", {player execVM ""Loadouts\Grenadier.sqf"";}, [],8,false,false,"""",""_this distance _target < 10""];  " \n "this addAction[""<t color='#FF0000'>Marksman</t>"", {player execVM ""Loadouts\Marksman.sqf"";}, [],8,false,false,"""",""_this distance _target < 10""];  " \n "this addAction[""<t color='#E3E300'>Clear Kit</t>"", {player execVM ""Loadouts\ClearKit.sqf"";}, [],7,false,false,"""",""_this distance _target < 10""];}";
+													disableSimulation=1;
+													stance="Up";
+													class Inventory
+													{
+														class handgun
+														{
+															name="UK3CB_BAF_L131A1";
+															class primaryMuzzleMag
+															{
+																name="UK3CB_BAF_9_17Rnd";
+																ammoLeft=17;
+															};
+														};
+														class uniform
+														{
+															typeName="UK3CB_BAF_U_CombatUniform_MTP";
+															isBackpack=0;
+														};
+														class vest
+														{
+															typeName="mpx_virtus_p";
+															isBackpack=0;
+														};
+														goggles="G_Aviator";
+														headgear="UK3CB_BAF_H_Beret_RLC_Commando";
+													};
+												};
+												id=90;
+												type="B_officer_F";
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="allowDamage";
+														expression="_this allowdamage _value;";
+														class Value
+														{
+															class data
+															{
+																singleType="BOOL";
+																value=0;
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="speaker";
+														expression="_this setspeaker _value;";
+														class Value
+														{
+															class data
+															{
+																singleType="STRING";
+																value="ACE_NoVoice";
+															};
+														};
+													};
+													class Attribute2
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																singleType="SCALAR";
+																value=1.04;
+															};
+														};
+													};
+													class Attribute3
+													{
+														property="unitName";
+														expression="_this setname _value;";
+														class Value
+														{
+															class data
+															{
+																singleType="STRING";
+																value="Quarter Master";
+															};
+														};
+													};
+													class Attribute4
+													{
+														property="unitInsignia";
+														expression="[_this,_value] call BIS_fnc_setUnitInsignia;";
+														class Value
+														{
+															class data
+															{
+																singleType="STRING";
+																value="Curator";
+															};
+														};
+													};
+													class Attribute5
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																singleType="STRING";
+																value="";
+															};
+														};
+													};
+													nAttributes=6;
+												};
+											};
+										};
+										class Attributes
+										{
+											combatMode="BLUE";
+											behaviour="CARELESS";
+											speedMode="LIMITED";
+										};
+										id=89;
+									};
+								};
+								id=84;
+								atlOffset=0.051025391;
+							};
+							class Item1
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={-0.65722656,1.1678467,-0.96716309};
+									angles[]={0,6.2808986,0};
+								};
+								side="Empty";
+								flags=4;
+								class Attributes
+								{
+									disableSimulation=1;
+								};
+								id=91;
+								type="CamoNet_BLUFOR_open_F";
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="ace_arsenal_attribute";
+										expression="if (!is3DEN) then {[_this, +_value] call ace_arsenal_fnc_attributeInit}";
+										class Value
+										{
+											class data
+											{
+												singleType="ARRAY";
+												class value
+												{
+													items=2;
+													class Item0
+													{
+														class data
+														{
+															singleType="ARRAY";
+															class value
+															{
+																items=167;
+																class Item0
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="mpx_daysack";
+																	};
+																};
+																class Item1
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="mpx_daysack8";
+																	};
+																};
+																class Item2
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="mpx_camel";
+																	};
+																};
+																class Item3
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="UK3CB_BAF_B_Bergen_MTP_Engineer_H_A";
+																	};
+																};
+																class Item4
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="UK3CB_BAF_B_Bergen_MTP_Engineer_L_A";
+																	};
+																};
+																class Item5
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="UK3CB_BAF_B_Bergen_MTP_Rifleman_H_A";
+																	};
+																};
+																class Item6
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="UK3CB_BAF_B_Bergen_MTP_Rifleman_H_B";
+																	};
+																};
+																class Item7
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="UK3CB_BAF_B_Bergen_MTP_Rifleman_H_C";
+																	};
+																};
+																class Item8
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="UK3CB_BAF_B_Bergen_MTP_Rifleman_L_A";
+																	};
+																};
+																class Item9
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="UK3CB_BAF_B_Bergen_MTP_Rifleman_L_B";
+																	};
+																};
+																class Item10
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="UK3CB_BAF_B_Bergen_MTP_Rifleman_L_C";
+																	};
+																};
+																class Item11
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="UK3CB_BAF_B_Bergen_MTP_Rifleman_L_D";
+																	};
+																};
+																class Item12
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="UK3CB_BAF_B_Bergen_MTP_Rifleman_XL_A";
+																	};
+																};
+																class Item13
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="UK3CB_BAF_G_Tactical_Black";
+																	};
+																};
+																class Item14
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="UK3CB_BAF_G_Tactical_Clear";
+																	};
+																};
+																class Item15
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Tactical_Clear";
+																	};
+																};
+																class Item16
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="UK3CB_BAF_G_Tactical_Grey";
+																	};
+																};
+																class Item17
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="UK3CB_BAF_G_Tactical_Orange";
+																	};
+																};
+																class Item18
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="UK3CB_BAF_G_Tactical_Yellow";
+																	};
+																};
+																class Item19
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="rhsusf_shemagh2_gogg_white";
+																	};
+																};
+																class Item20
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="rhsusf_shemagh_gogg_white";
+																	};
+																};
+																class Item21
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="rhsusf_shemagh2_gogg_tan";
+																	};
+																};
+																class Item22
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="rhsusf_shemagh_gogg_tan";
+																	};
+																};
+																class Item23
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="rhsusf_shemagh2_gogg_od";
+																	};
+																};
+																class Item24
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="rhsusf_shemagh_gogg_od";
+																	};
+																};
+																class Item25
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="rhsusf_shemagh2_gogg_grn";
+																	};
+																};
+																class Item26
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="rhsusf_shemagh_gogg_grn";
+																	};
+																};
+																class Item27
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="rhsusf_shemagh2_white";
+																	};
+																};
+																class Item28
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="rhsusf_shemagh_white";
+																	};
+																};
+																class Item29
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="rhsusf_shemagh2_tan";
+																	};
+																};
+																class Item30
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="rhsusf_shemagh_tan";
+																	};
+																};
+																class Item31
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="rhsusf_shemagh2_od";
+																	};
+																};
+																class Item32
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="rhsusf_shemagh_od";
+																	};
+																};
+																class Item33
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="rhsusf_shemagh2_grn";
+																	};
+																};
+																class Item34
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="rhsusf_shemagh_grn";
+																	};
+																};
+																class Item35
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="rhs_scarf";
+																	};
+																};
+																class Item36
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Bandanna_tan";
+																	};
+																};
+																class Item37
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Bandanna_sport";
+																	};
+																};
+																class Item38
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Bandanna_shades";
+																	};
+																};
+																class Item39
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Bandanna_oli";
+																	};
+																};
+																class Item40
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Bandanna_khk";
+																	};
+																};
+																class Item41
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Bandanna_blk";
+																	};
+																};
+																class Item42
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Bandanna_beast";
+																	};
+																};
+																class Item43
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Bandanna_aviator";
+																	};
+																};
+																class Item44
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="rhs_ess_black";
+																	};
+																};
+																class Item45
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="rhs_googles_orange";
+																	};
+																};
+																class Item46
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="rhs_googles_clear";
+																	};
+																};
+																class Item47
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Balaclava_oli";
+																	};
+																};
+																class Item48
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="rhs_balaclava1_olive";
+																	};
+																};
+																class Item49
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Balaclava_lowprofile";
+																	};
+																};
+																class Item50
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Balaclava_combat";
+																	};
+																};
+																class Item51
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Balaclava_blk";
+																	};
+																};
+																class Item52
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="rhs_balaclava";
+																	};
+																};
+																class Item53
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="ItemCompass";
+																	};
+																};
+																class Item54
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="ItemMap";
+																	};
+																};
+																class Item55
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="TFAR_microdagr";
+																	};
+																};
+																class Item56
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="rhs_googles_yellow";
+																	};
+																};
+																class Item57
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Combat";
+																	};
+																};
+																class Item58
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="None";
+																	};
+																};
+																class Item59
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="Rev_Shades_Black";
+																	};
+																};
+																class Item60
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="Rev_Shades_clear";
+																	};
+																};
+																class Item61
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="Rev_Shades_Yellow";
+																	};
+																};
+																class Item62
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="BatlskinCobraVisor";
+																	};
+																};
+																class Item63
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_EyeProtectors_F";
+																	};
+																};
+																class Item64
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Balaclava_TI_blk_F";
+																	};
+																};
+																class Item65
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Balaclava_TI_tna_F";
+																	};
+																};
+																class Item66
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Tactical_Black";
+																	};
+																};
+																class Item67
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Spectacles";
+																	};
+																};
+																class Item68
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Squares";
+																	};
+																};
+																class Item69
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Aviator";
+																	};
+																};
+																class Item70
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="UK3CB_BAF_G_Balaclava_Win";
+																	};
+																};
+																class Item71
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="rhs_googles_black";
+																	};
+																};
+																class Item72
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="RKSL_optic_LDS";
+																	};
+																};
+																class Item73
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="RKSL_optic_LDS_C";
+																	};
+																};
+																class Item74
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="UK3CB_BAF_LLM_Flashlight_Black";
+																	};
+																};
+																class Item75
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="UK3CB_BAF_LLM_Flashlight_Tan";
+																	};
+																};
+																class Item76
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="murshun_cigs_cig0";
+																	};
+																};
+																class Item77
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="immersion_cigs_cigar0";
+																	};
+																};
+																class Item78
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="immersion_pops_pop0";
+																	};
+																};
+																class Item79
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Shades_Black";
+																	};
+																};
+																class Item80
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Shades_Blue";
+																	};
+																};
+																class Item81
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Shades_Green";
+																	};
+																};
+																class Item82
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Shades_Red";
+																	};
+																};
+																class Item83
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="TFAR_rf7800str";
+																	};
+																};
+																class Item84
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="mpx_daysack9";
+																	};
+																};
+																class Item85
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="mpx_daysack10";
+																	};
+																};
+																class Item86
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="murshun_cigs_cigpack";
+																	};
+																};
+																class Item87
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="immersion_pops_poppack";
+																	};
+																};
+																class Item88
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="murshun_cigs_lighter";
+																	};
+																};
+																class Item89
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_TSHIRT_MTP";
+																	};
+																};
+																class Item90
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_TSHIRT_MTP_Bloused";
+																	};
+																};
+																class Item91
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_TSHIRT_MTP_Bloused_Pad";
+																	};
+																};
+																class Item92
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_TSHIRT_MTP_Pads";
+																	};
+																};
+																class Item93
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_UBACS_MTP_2";
+																	};
+																};
+																class Item94
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_UBACS_MTP_2_Bloused";
+																	};
+																};
+																class Item95
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_UBACS_MTP";
+																	};
+																};
+																class Item96
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_UBACS_MTP_Bloused";
+																	};
+																};
+																class Item97
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_UBACS_MTP_2_Pads";
+																	};
+																};
+																class Item98
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_UBACS_MTP_Pads";
+																	};
+																};
+																class Item99
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_UBACS_MTP_2_Bloused_Pads";
+																	};
+																};
+																class Item100
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_UBACS_MTP_Bloused_Pads";
+																	};
+																};
+																class Item101
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_UBACS_MTP_2_Rolled";
+																	};
+																};
+																class Item102
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_UBACS_MTP_Rolled";
+																	};
+																};
+																class Item103
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_UBACS_MTP_2_Bloused_Rolled";
+																	};
+																};
+																class Item104
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_UBACS_MTP_Bloused_Rolled";
+																	};
+																};
+																class Item105
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_UBACS_MTP_2_Bloused_Rolled_Pads";
+																	};
+																};
+																class Item106
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_UBACS_MTP_Bloused_Rolled_Pads";
+																	};
+																};
+																class Item107
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_UBACS_MTP_2_Rolled_Pad";
+																	};
+																};
+																class Item108
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_UBACS_MTP_Rolled_Pad";
+																	};
+																};
+																class Item109
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="Rev_One";
+																	};
+																};
+																class Item110
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="H_Cap_khaki_specops_UK";
+																	};
+																};
+																class Item111
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="Virtus_A_1";
+																	};
+																};
+																class Item112
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="Virtus_A_2";
+																	};
+																};
+																class Item113
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="Virtus_A_3";
+																	};
+																};
+																class Item114
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="Virtus_A_4";
+																	};
+																};
+																class Item115
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="Virtus_B_1";
+																	};
+																};
+																class Item116
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="Virtus_B_2";
+																	};
+																};
+																class Item117
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="Virtus_B_3";
+																	};
+																};
+																class Item118
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="Virtus_B_4";
+																	};
+																};
+																class Item119
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="Virtus_C_1";
+																	};
+																};
+																class Item120
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="Virtus_C_2";
+																	};
+																};
+																class Item121
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="Virtus_C_3";
+																	};
+																};
+																class Item122
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="Virtus_D_2";
+																	};
+																};
+																class Item123
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="Virtus_D_1";
+																	};
+																};
+																class Item124
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="Virtus_C_4";
+																	};
+																};
+																class Item125
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="Virtus_D_4";
+																	};
+																};
+																class Item126
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="Virtus_D_3";
+																	};
+																};
+																class Item127
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="PLP_RH_Glass_Beard_01_black";
+																	};
+																};
+																class Item128
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="PLP_RH_Glass_Beard_01_brown";
+																	};
+																};
+																class Item129
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="PLP_RH_Glass_Beard_01_blonde";
+																	};
+																};
+																class Item130
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="PLP_RH_Glass_Beard_01_grey";
+																	};
+																};
+																class Item131
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="PLP_RH_Glass_Beard_01_red";
+																	};
+																};
+																class Item132
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="PLP_RH_Glass_Beard_02_blonde";
+																	};
+																};
+																class Item133
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="PLP_RH_Glass_Beard_02_black";
+																	};
+																};
+																class Item134
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="PLP_RH_Glass_Beard_02_brown";
+																	};
+																};
+																class Item135
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="PLP_RH_Glass_Beard_02_grey";
+																	};
+																};
+																class Item136
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="PLP_RH_Glass_Beard_03_black";
+																	};
+																};
+																class Item137
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="PLP_RH_Glass_Beard_02_red";
+																	};
+																};
+																class Item138
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="PLP_RH_Glass_Beard_03_blonde";
+																	};
+																};
+																class Item139
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="PLP_RH_Glass_Beard_03_brown";
+																	};
+																};
+																class Item140
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="PLP_RH_Glass_Beard_03_grey";
+																	};
+																};
+																class Item141
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="PLP_RH_Glass_Beard_04_black";
+																	};
+																};
+																class Item142
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="PLP_RH_Glass_Beard_03_red";
+																	};
+																};
+																class Item143
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="PLP_RH_Glass_Beard_04_red";
+																	};
+																};
+																class Item144
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="PLP_RH_Glass_Beard_04_grey";
+																	};
+																};
+																class Item145
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="PLP_RH_Glass_Beard_04_brown";
+																	};
+																};
+																class Item146
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="PLP_RH_Glass_Beard_04_blonde";
+																	};
+																};
+																class Item147
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Bandanna_Skull1";
+																	};
+																};
+																class Item148
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Bandanna_CandySkull";
+																	};
+																};
+																class Item149
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Balaclava_Skull1";
+																	};
+																};
+																class Item150
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="PB_Balaclava_grey";
+																	};
+																};
+																class Item151
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Balaclava_BlueStrips";
+																	};
+																};
+																class Item152
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="PB_Balaclava_black";
+																	};
+																};
+																class Item153
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_ESS12_MK6_LOW_COVER";
+																	};
+																};
+																class Item154
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_ESS12_MK6_LOW";
+																	};
+																};
+																class Item155
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_ESS12_MK6_HIGH_COVER";
+																	};
+																};
+																class Item156
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_ESS12_MK6_HIGH";
+																	};
+																};
+																class Item157
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_SWDG_MK6_LOW_COVER";
+																	};
+																};
+																class Item158
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_SWDG_MK6_LOW";
+																	};
+																};
+																class Item159
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_SWDG_MK6_HIGH_COVER";
+																	};
+																};
+																class Item160
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_SWDG_MK6_HIGH";
+																	};
+																};
+																class Item161
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="rhsusf_acc_grip1";
+																	};
+																};
+																class Item162
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="UK3CB_underbarrel_acc_grippod";
+																	};
+																};
+																class Item163
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="UK3CB_underbarrel_acc_grippod_d";
+																	};
+																};
+																class Item164
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="UK3CB_underbarrel_acc_grippod_g";
+																	};
+																};
+																class Item165
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="UK3CB_underbarrel_acc_grippod_t";
+																	};
+																};
+																class Item166
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="UK3CB_underbarrel_acc_grippod_w";
+																	};
+																};
+															};
+														};
+													};
+													class Item1
+													{
+														class data
+														{
+															singleType="SCALAR";
+															value=0;
+														};
+													};
+												};
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item2
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={-2.2592773,1.06604,0.47277832};
+									angles[]={0,4.5562167,0};
+								};
+								side="Empty";
+								flags=4;
+								class Attributes
+								{
+									disableSimulation=1;
+								};
+								id=92;
+								type="Land_MultiScreenComputer_01_black_F";
+								atlOffset=0.00036621094;
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=0;
+											};
+										};
+									};
+									class Attribute1
+									{
+										property="ObjectTextureCustom1";
+										expression="_this setObjectTextureGlobal [1,_value]";
+										class Value
+										{
+											class data
+											{
+												singleType="STRING";
+												value="Images\Step1.paa";
+											};
+										};
+									};
+									class Attribute2
+									{
+										property="ObjectTextureCustom2";
+										expression="_this setObjectTextureGlobal [2,_value]";
+										class Value
+										{
+											class data
+											{
+												singleType="STRING";
+												value="Images\Step2.paa";
+											};
+										};
+									};
+									class Attribute3
+									{
+										property="ObjectTextureCustom3";
+										expression="_this setObjectTextureGlobal [3,_value]";
+										class Value
+										{
+											class data
+											{
+												singleType="STRING";
+												value="Images\PleaseNote.paa";
+											};
+										};
+									};
+									class Attribute4
+									{
+										property="ace_arsenal_attribute";
+										expression="if (!is3DEN) then {[_this, +_value] call ace_arsenal_fnc_attributeInit}";
+										class Value
+										{
+											class data
+											{
+												singleType="ARRAY";
+												class value
+												{
+													items=2;
+													class Item0
+													{
+														class data
+														{
+															singleType="ARRAY";
+															class value
+															{
+																items=167;
+																class Item0
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="mpx_daysack";
+																	};
+																};
+																class Item1
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="mpx_daysack8";
+																	};
+																};
+																class Item2
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="mpx_camel";
+																	};
+																};
+																class Item3
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="UK3CB_BAF_B_Bergen_MTP_Engineer_H_A";
+																	};
+																};
+																class Item4
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="UK3CB_BAF_B_Bergen_MTP_Engineer_L_A";
+																	};
+																};
+																class Item5
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="UK3CB_BAF_B_Bergen_MTP_Rifleman_H_A";
+																	};
+																};
+																class Item6
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="UK3CB_BAF_B_Bergen_MTP_Rifleman_H_B";
+																	};
+																};
+																class Item7
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="UK3CB_BAF_B_Bergen_MTP_Rifleman_H_C";
+																	};
+																};
+																class Item8
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="UK3CB_BAF_B_Bergen_MTP_Rifleman_L_A";
+																	};
+																};
+																class Item9
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="UK3CB_BAF_B_Bergen_MTP_Rifleman_L_B";
+																	};
+																};
+																class Item10
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="UK3CB_BAF_B_Bergen_MTP_Rifleman_L_C";
+																	};
+																};
+																class Item11
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="UK3CB_BAF_B_Bergen_MTP_Rifleman_L_D";
+																	};
+																};
+																class Item12
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="UK3CB_BAF_B_Bergen_MTP_Rifleman_XL_A";
+																	};
+																};
+																class Item13
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="UK3CB_BAF_G_Tactical_Black";
+																	};
+																};
+																class Item14
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="UK3CB_BAF_G_Tactical_Clear";
+																	};
+																};
+																class Item15
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Tactical_Clear";
+																	};
+																};
+																class Item16
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="UK3CB_BAF_G_Tactical_Grey";
+																	};
+																};
+																class Item17
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="UK3CB_BAF_G_Tactical_Orange";
+																	};
+																};
+																class Item18
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="UK3CB_BAF_G_Tactical_Yellow";
+																	};
+																};
+																class Item19
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="rhsusf_shemagh2_gogg_white";
+																	};
+																};
+																class Item20
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="rhsusf_shemagh_gogg_white";
+																	};
+																};
+																class Item21
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="rhsusf_shemagh2_gogg_tan";
+																	};
+																};
+																class Item22
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="rhsusf_shemagh_gogg_tan";
+																	};
+																};
+																class Item23
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="rhsusf_shemagh2_gogg_od";
+																	};
+																};
+																class Item24
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="rhsusf_shemagh_gogg_od";
+																	};
+																};
+																class Item25
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="rhsusf_shemagh2_gogg_grn";
+																	};
+																};
+																class Item26
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="rhsusf_shemagh_gogg_grn";
+																	};
+																};
+																class Item27
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="rhsusf_shemagh2_white";
+																	};
+																};
+																class Item28
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="rhsusf_shemagh_white";
+																	};
+																};
+																class Item29
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="rhsusf_shemagh2_tan";
+																	};
+																};
+																class Item30
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="rhsusf_shemagh_tan";
+																	};
+																};
+																class Item31
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="rhsusf_shemagh2_od";
+																	};
+																};
+																class Item32
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="rhsusf_shemagh_od";
+																	};
+																};
+																class Item33
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="rhsusf_shemagh2_grn";
+																	};
+																};
+																class Item34
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="rhsusf_shemagh_grn";
+																	};
+																};
+																class Item35
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="rhs_scarf";
+																	};
+																};
+																class Item36
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Bandanna_tan";
+																	};
+																};
+																class Item37
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Bandanna_sport";
+																	};
+																};
+																class Item38
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Bandanna_shades";
+																	};
+																};
+																class Item39
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Bandanna_oli";
+																	};
+																};
+																class Item40
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Bandanna_khk";
+																	};
+																};
+																class Item41
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Bandanna_blk";
+																	};
+																};
+																class Item42
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Bandanna_beast";
+																	};
+																};
+																class Item43
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Bandanna_aviator";
+																	};
+																};
+																class Item44
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="rhs_ess_black";
+																	};
+																};
+																class Item45
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="rhs_googles_orange";
+																	};
+																};
+																class Item46
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="rhs_googles_clear";
+																	};
+																};
+																class Item47
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Balaclava_oli";
+																	};
+																};
+																class Item48
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="rhs_balaclava1_olive";
+																	};
+																};
+																class Item49
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Balaclava_lowprofile";
+																	};
+																};
+																class Item50
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Balaclava_combat";
+																	};
+																};
+																class Item51
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Balaclava_blk";
+																	};
+																};
+																class Item52
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="rhs_balaclava";
+																	};
+																};
+																class Item53
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="ItemCompass";
+																	};
+																};
+																class Item54
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="ItemMap";
+																	};
+																};
+																class Item55
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="TFAR_microdagr";
+																	};
+																};
+																class Item56
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="rhs_googles_yellow";
+																	};
+																};
+																class Item57
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Combat";
+																	};
+																};
+																class Item58
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="None";
+																	};
+																};
+																class Item59
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="Rev_Shades_Black";
+																	};
+																};
+																class Item60
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="Rev_Shades_clear";
+																	};
+																};
+																class Item61
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="Rev_Shades_Yellow";
+																	};
+																};
+																class Item62
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="BatlskinCobraVisor";
+																	};
+																};
+																class Item63
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_EyeProtectors_F";
+																	};
+																};
+																class Item64
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Balaclava_TI_blk_F";
+																	};
+																};
+																class Item65
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Balaclava_TI_tna_F";
+																	};
+																};
+																class Item66
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Tactical_Black";
+																	};
+																};
+																class Item67
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Spectacles";
+																	};
+																};
+																class Item68
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Squares";
+																	};
+																};
+																class Item69
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Aviator";
+																	};
+																};
+																class Item70
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="UK3CB_BAF_G_Balaclava_Win";
+																	};
+																};
+																class Item71
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="rhs_googles_black";
+																	};
+																};
+																class Item72
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="RKSL_optic_LDS";
+																	};
+																};
+																class Item73
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="RKSL_optic_LDS_C";
+																	};
+																};
+																class Item74
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="UK3CB_BAF_LLM_Flashlight_Black";
+																	};
+																};
+																class Item75
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="UK3CB_BAF_LLM_Flashlight_Tan";
+																	};
+																};
+																class Item76
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="murshun_cigs_cig0";
+																	};
+																};
+																class Item77
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="immersion_cigs_cigar0";
+																	};
+																};
+																class Item78
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="immersion_pops_pop0";
+																	};
+																};
+																class Item79
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Shades_Black";
+																	};
+																};
+																class Item80
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Shades_Blue";
+																	};
+																};
+																class Item81
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Shades_Green";
+																	};
+																};
+																class Item82
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Shades_Red";
+																	};
+																};
+																class Item83
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="TFAR_rf7800str";
+																	};
+																};
+																class Item84
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="mpx_daysack9";
+																	};
+																};
+																class Item85
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="mpx_daysack10";
+																	};
+																};
+																class Item86
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="murshun_cigs_cigpack";
+																	};
+																};
+																class Item87
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="immersion_pops_poppack";
+																	};
+																};
+																class Item88
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="murshun_cigs_lighter";
+																	};
+																};
+																class Item89
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_TSHIRT_MTP";
+																	};
+																};
+																class Item90
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_TSHIRT_MTP_Bloused";
+																	};
+																};
+																class Item91
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_TSHIRT_MTP_Bloused_Pad";
+																	};
+																};
+																class Item92
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_TSHIRT_MTP_Pads";
+																	};
+																};
+																class Item93
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_UBACS_MTP_2";
+																	};
+																};
+																class Item94
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_UBACS_MTP_2_Bloused";
+																	};
+																};
+																class Item95
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_UBACS_MTP";
+																	};
+																};
+																class Item96
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_UBACS_MTP_Bloused";
+																	};
+																};
+																class Item97
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_UBACS_MTP_2_Pads";
+																	};
+																};
+																class Item98
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_UBACS_MTP_Pads";
+																	};
+																};
+																class Item99
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_UBACS_MTP_2_Bloused_Pads";
+																	};
+																};
+																class Item100
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_UBACS_MTP_Bloused_Pads";
+																	};
+																};
+																class Item101
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_UBACS_MTP_2_Rolled";
+																	};
+																};
+																class Item102
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_UBACS_MTP_Rolled";
+																	};
+																};
+																class Item103
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_UBACS_MTP_2_Bloused_Rolled";
+																	};
+																};
+																class Item104
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_UBACS_MTP_Bloused_Rolled";
+																	};
+																};
+																class Item105
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_UBACS_MTP_2_Bloused_Rolled_Pads";
+																	};
+																};
+																class Item106
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_UBACS_MTP_Bloused_Rolled_Pads";
+																	};
+																};
+																class Item107
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_UBACS_MTP_2_Rolled_Pad";
+																	};
+																};
+																class Item108
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_UBACS_MTP_Rolled_Pad";
+																	};
+																};
+																class Item109
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="Rev_One";
+																	};
+																};
+																class Item110
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="H_Cap_khaki_specops_UK";
+																	};
+																};
+																class Item111
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="Virtus_A_1";
+																	};
+																};
+																class Item112
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="Virtus_A_2";
+																	};
+																};
+																class Item113
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="Virtus_A_3";
+																	};
+																};
+																class Item114
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="Virtus_A_4";
+																	};
+																};
+																class Item115
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="Virtus_B_1";
+																	};
+																};
+																class Item116
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="Virtus_B_2";
+																	};
+																};
+																class Item117
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="Virtus_B_3";
+																	};
+																};
+																class Item118
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="Virtus_B_4";
+																	};
+																};
+																class Item119
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="Virtus_C_1";
+																	};
+																};
+																class Item120
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="Virtus_C_2";
+																	};
+																};
+																class Item121
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="Virtus_C_3";
+																	};
+																};
+																class Item122
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="Virtus_D_2";
+																	};
+																};
+																class Item123
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="Virtus_D_1";
+																	};
+																};
+																class Item124
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="Virtus_C_4";
+																	};
+																};
+																class Item125
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="Virtus_D_4";
+																	};
+																};
+																class Item126
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="Virtus_D_3";
+																	};
+																};
+																class Item127
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="PLP_RH_Glass_Beard_01_black";
+																	};
+																};
+																class Item128
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="PLP_RH_Glass_Beard_01_brown";
+																	};
+																};
+																class Item129
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="PLP_RH_Glass_Beard_01_blonde";
+																	};
+																};
+																class Item130
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="PLP_RH_Glass_Beard_01_grey";
+																	};
+																};
+																class Item131
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="PLP_RH_Glass_Beard_01_red";
+																	};
+																};
+																class Item132
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="PLP_RH_Glass_Beard_02_blonde";
+																	};
+																};
+																class Item133
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="PLP_RH_Glass_Beard_02_black";
+																	};
+																};
+																class Item134
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="PLP_RH_Glass_Beard_02_brown";
+																	};
+																};
+																class Item135
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="PLP_RH_Glass_Beard_02_grey";
+																	};
+																};
+																class Item136
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="PLP_RH_Glass_Beard_03_black";
+																	};
+																};
+																class Item137
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="PLP_RH_Glass_Beard_02_red";
+																	};
+																};
+																class Item138
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="PLP_RH_Glass_Beard_03_blonde";
+																	};
+																};
+																class Item139
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="PLP_RH_Glass_Beard_03_brown";
+																	};
+																};
+																class Item140
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="PLP_RH_Glass_Beard_03_grey";
+																	};
+																};
+																class Item141
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="PLP_RH_Glass_Beard_04_black";
+																	};
+																};
+																class Item142
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="PLP_RH_Glass_Beard_03_red";
+																	};
+																};
+																class Item143
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="PLP_RH_Glass_Beard_04_red";
+																	};
+																};
+																class Item144
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="PLP_RH_Glass_Beard_04_grey";
+																	};
+																};
+																class Item145
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="PLP_RH_Glass_Beard_04_brown";
+																	};
+																};
+																class Item146
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="PLP_RH_Glass_Beard_04_blonde";
+																	};
+																};
+																class Item147
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Bandanna_Skull1";
+																	};
+																};
+																class Item148
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Bandanna_CandySkull";
+																	};
+																};
+																class Item149
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Balaclava_Skull1";
+																	};
+																};
+																class Item150
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="PB_Balaclava_grey";
+																	};
+																};
+																class Item151
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="G_Balaclava_BlueStrips";
+																	};
+																};
+																class Item152
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="PB_Balaclava_black";
+																	};
+																};
+																class Item153
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_ESS12_MK6_LOW_COVER";
+																	};
+																};
+																class Item154
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_ESS12_MK6_LOW";
+																	};
+																};
+																class Item155
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_ESS12_MK6_HIGH_COVER";
+																	};
+																};
+																class Item156
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_ESS12_MK6_HIGH";
+																	};
+																};
+																class Item157
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_SWDG_MK6_LOW_COVER";
+																	};
+																};
+																class Item158
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_SWDG_MK6_LOW";
+																	};
+																};
+																class Item159
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_SWDG_MK6_HIGH_COVER";
+																	};
+																};
+																class Item160
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="QAC_SWDG_MK6_HIGH";
+																	};
+																};
+																class Item161
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="rhsusf_acc_grip1";
+																	};
+																};
+																class Item162
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="UK3CB_underbarrel_acc_grippod";
+																	};
+																};
+																class Item163
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="UK3CB_underbarrel_acc_grippod_d";
+																	};
+																};
+																class Item164
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="UK3CB_underbarrel_acc_grippod_g";
+																	};
+																};
+																class Item165
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="UK3CB_underbarrel_acc_grippod_t";
+																	};
+																};
+																class Item166
+																{
+																	class data
+																	{
+																		singleType="STRING";
+																		value="UK3CB_underbarrel_acc_grippod_w";
+																	};
+																};
+															};
+														};
+													};
+													class Item1
+													{
+														class data
+														{
+															singleType="SCALAR";
+															value=0;
+														};
+													};
+												};
+											};
+										};
+									};
+									nAttributes=5;
+								};
+							};
+							class Item3
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={-2.0146484,0.41156006,0.10046387};
+									angles[]={-0,0.92904782,0};
+								};
+								side="Empty";
+								flags=4;
+								class Attributes
+								{
+									disableSimulation=1;
+								};
+								id=93;
+								type="Land_CampingTable_F";
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=0;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item4
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={5.5532227,1.3189697,8.3234863};
+									angles[]={-0,3.1528349,0};
+								};
+								side="Empty";
+								flags=4;
+								class Attributes
+								{
+									init="call{[_box, true] call ace_arsenal_fnc_initBox;}";
+									disableSimulation=1;
+								};
+								id=94;
+								type="UK3CB_BAF_MAN_HX58_Container_Green";
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=0;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+						};
+						id=83;
+						atlOffset=0.10522461;
+					};
+				};
+				id=82;
+				atlOffset=0.10522461;
+			};
+		};
+		id=95;
+		atlOffset=0.10522461;
+	};
+};

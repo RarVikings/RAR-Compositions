@@ -1,0 +1,22 @@
+version=54;
+name="Updated QuaterMaster";
+author="Alyssa and Bushell";
+category="EdSubcat_Utilities";
+requiredAddons[]=
+{
+	"A3_Structures_F_Civ_Camping",
+	"ace_dragging",
+	"A3_Props_F_Enoch_Military_Equipment",
+	"A3_Props_F_Destroyer_Military_BriefingRoomScreen",
+	"A3_Structures_F_Kart_Mil_Flags",
+	"A3_Characters_F",
+	"UK3CB_BAF_Weapons_L131A1",
+	"UK3CB_BAF_Weapons_Ammo",
+	"A3_Characters_F_Orange_Facewear",
+	"ace_goggles",
+	"UK3CB_BAF_Equipment_Berets",
+	"UK3CB_BAF_Equipment_Uniforms",
+	"mpx_Outfits_Vest",
+	"A3_Structures_F_Mil_Shelters",
+	"UK3CB_BAF_Vehicles_MAN"
+};
